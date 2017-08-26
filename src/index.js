@@ -12,4 +12,5 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <App />
   </Provider>
-  , document.querySelector('.container'));
+  //Prend cette application entière et render la dans le div avec la class render-target
+  , document.querySelector('.render-target'));
